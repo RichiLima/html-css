@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(86, 100, 172);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(110, 139, 233);
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        nav{
+            background-color: rgb(48, 78, 170);
+            padding: 3px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
+            
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            text-align: right;
+            padding: 40px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: rgb(110, 139, 233);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: rgb(110, 139, 233);
+            padding: 5px;
+
+        }
+        article > aside {
+            background-color: rgb(48, 78, 170);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        h1{
+            box-shadow:inset 4px 5px 13px 5px rgba(0, 0, 0, 0.303);
+        }
+        main > section > article > aside p{
+            font-weight: bold;
+            text-align: center;
+            box-shadow: inset 4px 5px 13px 5px rgba(0, 0, 0, 0.173);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Esportes, Politica, Tecnologia</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil dignissimos, repudiandae iste illo ut quisquam dolores aperiam necessitatibus magni sed. Libero, amet! Quod sunt autem earum modi expedita consectetur eum?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Moticias sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex esse quae, quasi laudantium quos cumque numquam dolore quam nisi, inventore reprehenderit deleniti asperiores ad, ea dolor doloremque eligendi sunt?</p>
+                <aside>
+                    <p>Artigo escrito por beto carreiro</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por RdeV</p>
+    </footer>
+   
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+}
+
+.title_primary {
+ color: #f00;
+ padding: 10px 35px;
+}
+.nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+.nav-link:hover {
+    color: red;
+}
+.img_icone_netflix {
+    width: 100px;
+    margin-right: 35px;
+}
+.nav {
+    margin: 18px 45px;
+    
+}
