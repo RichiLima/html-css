@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 17, 105);
+    margin: 0px
+}
+nav > a{
+    text-align:;
+}
+.canto1{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px 10px 10px;
+    
+}
+.canto2{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px 10px 10px;
+}
+main img{
+    width: 100%;
+}
